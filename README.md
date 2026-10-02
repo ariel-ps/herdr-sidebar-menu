@@ -15,3 +15,7 @@ herdr plugin install ariel-ps/herdr-sidebar-menu --ref main --yes
 ```
 
 Use a commit or release tag instead of `main` to pin a version. Supports macOS and Ubuntu/Debian Linux.
+
+## License
+
+Original project code is licensed under the [MIT License](LICENSE). Third-party code and media retain their own terms; this license does not grant rights to game assets, downloaded themes, or other third-party content.
