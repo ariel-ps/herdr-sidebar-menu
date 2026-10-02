@@ -1,0 +1,12 @@
+id = "dev.ariel.herdr-sidebar-menu"
+name = "Sidebar Menu"
+version = "0.1.0"
+min_herdr_version = "0.9.3"
+description = "Add the installed Herdr Sidebar toggle to pane and workspace menus."
+platforms = ["macos", "linux"]
+
+[[actions]]
+id = "sidebar"
+title = "Toggle file sidebar"
+contexts = ["pane","workspace"]
+command = ["sh","-c","exec \"${HERDR_BIN_PATH:-herdr}\" plugin action invoke herdr-sidebar.open-sidebar"]
